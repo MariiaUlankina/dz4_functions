@@ -24,4 +24,17 @@ function division (){
 }
 
 
+if (operation == '+'){
+       plus();
+}
+else if (operation == '-'){
+       minus();
+}
+else if (operation == '*'){
+       multiplication();
+}
+else if (operation == '/'){
+       division();
+}
+
 

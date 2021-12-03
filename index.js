@@ -1,25 +1,31 @@
-let first_num = prompt ('Enter first number');
-let second_num = prompt ('Enter second number');
 let operation = prompt ('Enter operation');
 
 
-function plus(){
-     const result = Number(first_num) + Number(second_num);
-     console.log(`Результат: ${first_num} + ${second_num} = ${result}`);
+function plus(first_num,second_num){
+       first_num = +prompt ('Enter first number');
+       second_num = +prompt ('Enter second number');
+       const result = first_num + second_num;
+       console.log(`Результат: ${first_num} + ${second_num} = ${result}`);
 }
 
-function minus(){
-       const result = Number(first_num) - Number(second_num);
+function minus(first_num,second_num){
+       first_num = +prompt ('Enter first number');
+       second_num = +prompt ('Enter second number');
+       const result = first_num - second_num;
        console.log(`Результат: ${first_num} - ${second_num} = ${result}`);
 }
 
-function multiplication(){
-       const result = Number(first_num) * Number(second_num);
+function multiplication(first_num,second_num){
+       first_num = +prompt ('Enter first number');
+       second_num = +prompt ('Enter second number');
+       const result = first_num * second_num;
        console.log(`Результат: ${first_num} * ${second_num} = ${result}`);
 }
 
-function division (){
-       const result = Number(first_num) / Number(second_num);
+function division (first_num,second_num){
+       first_num = +prompt ('Enter first number');
+       second_num = +prompt ('Enter second number');
+       const result = first_num / second_num;
        console.log(`Результат: ${first_num} / ${second_num} = ${result}`);
 }
 
